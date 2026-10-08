@@ -7,6 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED YES)
 find_package(activemq-cpp REQUIRED)
 
 add_executable(${PROJECT_NAME}
+    src/producer.cpp
+    src/consumer.cpp
     src/main.cpp
 )
 
